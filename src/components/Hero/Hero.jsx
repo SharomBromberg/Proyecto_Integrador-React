@@ -9,7 +9,7 @@ import {
 	HeroFormStyled,
 	CategoryContainerStyled,
 	CategoryItemStyled,
-	ContentContainerStyled, // Import the styled component for the video background
+	ContentContainerStyled,
 } from './HeroStyles'
 import AnimatedText from '../UI/AnimatedText/AnimatedText'
 import { StyledButton } from '../UI/Button/ButtonStyled'

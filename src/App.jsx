@@ -4,12 +4,12 @@ import Footer from './components/Footer/Footer'
 import Layout from './components/Layout/Layout'
 import Navbar from './components/Navbar/Navbar'
 import { Toaster } from 'sonner'
-import VideoBackground from './components/UI/Background/Background'
+import GifBackground from './components/UI/Background/Background'
 
 function App() {
 	return (
 		<>
-			<VideoBackground />
+			<GifBackground />
 			<Layout>
 				<Toaster richColors />
 				<Navbar />

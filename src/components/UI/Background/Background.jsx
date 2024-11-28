@@ -1,13 +1,10 @@
-import { VideoBackgroundStyled } from './BackgroundStyled'
+import { GifBackgroundStyled } from './BackgroundStyled'
 
-const VideoBackground = () => (
-	<VideoBackgroundStyled autoPlay loop muted>
-		<source
-			src="/src/assets/backgounds/7020040_Light_Sun_3840x2160.mp4"
-			type="video/mp4"
-		/>
-		Your browser does not support the video tag.
-	</VideoBackgroundStyled>
+const GifBackground = () => (
+	<GifBackgroundStyled
+		src="/src/assets/backgounds/background.gif"
+		alt="Background Animation"
+	/>
 )
 
-export default VideoBackground
+export default GifBackground
