@@ -114,7 +114,7 @@ const Hero = ({ doScroll }) => {
 								</CategoryItemStyled>
 							))}
 						</CategoryContainerStyled>
-						<CustomImageStyled src="/src/assets/hero.png" alt="" />
+						<CustomImageStyled src="../../public/assets/hero.png" alt="" />
 					</ContentContainerStyled>
 
 					<StyledButton type="submit" disabled={!categories[selectedIndex]}>

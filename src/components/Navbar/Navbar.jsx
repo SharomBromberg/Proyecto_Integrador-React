@@ -30,7 +30,7 @@ function Navbar() {
 			<ModalUser />
 			<div>
 				<Link to="/">
-					<CustomImageStyled src="/src/assets/logo.png" alt="Logo" />
+					<CustomImageStyled src="../../public/assets/logo.png" alt="Logo" />
 				</Link>
 			</div>
 			<LinksContainerStyled>

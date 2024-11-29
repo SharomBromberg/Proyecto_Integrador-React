@@ -34,7 +34,7 @@ export const InputStyled = styled.input`
   padding: 0.5rem 1rem;
   color: #e0e0e0;
   font-family: 'Press_Start_2P';
-	src: url('/src/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+	src: url('../../public/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
   font-size: 0.75rem;
   font-weight: 100;
   letter-spacing: 0.25rem;

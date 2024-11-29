@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'Press_Start_2P';
-    src: url('/src/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+    src: url('../../public/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
   }

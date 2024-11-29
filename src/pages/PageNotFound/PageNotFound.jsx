@@ -14,7 +14,10 @@ const PageNotFound = () => {
 			<FoundTextStyled>
 				<FoundTitleStyled>
 					<div>
-						<CustomImageStyled src="/src/assets/404err.gif" alt="Logo" />
+						<CustomImageStyled
+							src="../../public/assets/404err.gif"
+							alt="Logo"
+						/>
 					</div>
 				</FoundTitleStyled>
 				<FoundSubtitleStyled>

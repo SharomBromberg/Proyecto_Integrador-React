@@ -2,7 +2,7 @@ import { GifBackgroundStyled } from './BackgroundStyled'
 
 const GifBackground = () => (
 	<GifBackgroundStyled
-		src="/src/assets/backgounds/background.gif"
+		src="../../public/assets/backgounds/background.gif"
 		alt="Background Animation"
 	/>
 )

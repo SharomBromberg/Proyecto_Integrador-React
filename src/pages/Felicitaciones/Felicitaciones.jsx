@@ -16,7 +16,10 @@ const Felicitaciones = () => {
 		<div>
 			<TextStyled>
 				<div>
-					<CustomImageStyled src="/src/assets/icons/sucess.png" alt="Logo" />
+					<CustomImageStyled
+						src="../../public/assets/icons/sucess.png"
+						alt="Logo"
+					/>
 				</div>
 				<ContainerInfoStyled>
 					<TitleStyled>¡Felicitaciones!</TitleStyled>
