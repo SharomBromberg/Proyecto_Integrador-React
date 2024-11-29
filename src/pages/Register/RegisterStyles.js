@@ -7,8 +7,8 @@ export const LoginContainerStyled = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+  gap:4rem;
+  margin: 28%;
 `;
 
 export const Form = styled(FormikForm)`

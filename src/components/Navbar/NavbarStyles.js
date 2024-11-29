@@ -51,7 +51,7 @@ export const CustomImageStyled = styled.img`
 export const LinksContainerStyled = styled.div`
 	color: white;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	gap: 2.5rem;
 

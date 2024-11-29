@@ -39,12 +39,9 @@ function Navbar() {
 						<LinkContainerStyled>
 							<FiHome color="c8a2ff" />
 						</LinkContainerStyled>
-						Home
+						Inicio
 					</Link>
 				</motion.div>
-				<CartNavStyled>
-					<CartIcon />
-				</CartNavStyled>
 
 				<UserNavStyled>
 					<UserContainerStyled
@@ -53,11 +50,17 @@ function Navbar() {
 						}
 					>
 						<SpanStyled>
-							{currentUser ? `${currentUser.nombre}` : 'Inicia Sesion'}
+							{currentUser
+								? `${currentUser.nombre}`
+								: 'Inicia Sesion / Registro'}
 						</SpanStyled>
 						<FiUser color="c8a2ff" />
 					</UserContainerStyled>
 				</UserNavStyled>
+
+				<CartNavStyled>
+					<CartIcon />
+				</CartNavStyled>
 			</LinksContainerStyled>
 		</NavbarContainerStyled>
 	)

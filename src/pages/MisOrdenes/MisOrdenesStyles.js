@@ -17,6 +17,7 @@ export const MisOrdenesContainerStyled = styled.div`
     max-width: 80%;
     height: auto;
     padding: 2rem;
+    margin: 20% auto;
   }
 
   @media (max-width: ${breakpoints.mobile}) {
